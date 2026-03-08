@@ -1,0 +1,19 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bottom Layer -->
+    <path d="M 16.7 85 L 60 110 L 103.3 85 L 16.7 35" stroke="#F27A22" />
+    <!-- Middle Layers -->
+    <path d="M 103.3 85 L 103.3 35 L 60 10 L 16.7 85" stroke="#F8B22B" />
+    <path d="M 103.3 35 L 60 110 L 16.7 85 L 60 10" stroke="#E43E34" />
+    <!-- Top Layers -->
+    <path d="M 16.7 35 L 60 10 L 103.3 35 L 60 110" stroke="#31A053" />
+    <path d="M 60 10 L 16.7 35 L 16.7 85 L 103.3 35" stroke="#2175B5" />
+    <!-- Overrides for exact Z-index interlacing -->
+    <path d="M 60 110 L 103.3 85" stroke="#E43E34" />
+    <path d="M 60 110 L 16.7 85" stroke="#F27A22" />
+    <path d="M 60 10 L 16.7 35" stroke="#31A053" />
+    <path d="M 60 10 L 103.3 35" stroke="#2175B5" />
+    <path d="M 103.3 85 L 103.3 35" stroke="#F8B22B" />
+    <path d="M 16.7 85 L 60 10" stroke="#E43E34" />
+  </g>
+</svg>
