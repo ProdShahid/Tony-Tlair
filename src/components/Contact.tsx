@@ -45,7 +45,7 @@ export function Contact() {
         body: JSON.stringify({
           access_key: accessKey,
           subject: `New Contact Inquiry from ${formState.name}`,
-          from_name: 'Revolt Ltd Website',
+          from_name: 'Revolt Website',
           ...formState,
         }),
       });
@@ -73,7 +73,7 @@ export function Contact() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 tracking-tight">Let's Build Your Salesforce Success Story</h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Whether you need Salesforce implementation, customization, integration, or long-term support, Revolt Ltd is ready to help.
+            Whether you need Salesforce implementation, customization, integration, or long-term support, Revolt is ready to help.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ export function Contact() {
             <div className="bg-gradient-to-br from-slate-900 to-blue-900 rounded-2xl p-8 text-white shadow-lg">
               <h3 className="text-xl font-bold mb-4">Ready to Transform?</h3>
               <p className="text-blue-100 mb-6 text-sm leading-relaxed">
-                Partner with Revolt Ltd to unlock the full potential of your Salesforce investment and drive meaningful business growth.
+                Partner with Revolt to unlock the full potential of your Salesforce investment and drive meaningful business growth.
               </p>
               <a href="mailto:contact@revolt.works" className="inline-flex items-center justify-center w-full bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
                 Start Your Journey

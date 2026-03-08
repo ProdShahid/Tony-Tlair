@@ -14,7 +14,7 @@ export function Footer() {
               <Logo />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Revolt Ltd delivers Salesforce consulting, implementation, customization, integration, and managed support services for modern businesses.
+              Revolt LLC delivers Salesforce consulting, implementation, customization, integration, and managed support services for modern businesses.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-slate-400 text-sm shrink-0">Address:</span>
-                <span className="text-slate-300 text-sm">Industrial Area Phase-2, Panki Kanpur – 208020 Uttar Pradesh</span>
+                <span className="text-slate-300 text-sm">410 Wisconsin Ave, Wisconsin Dells, WI 53965, USA</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-slate-400 text-sm shrink-0">Email:</span>
@@ -68,7 +68,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © 2026 Revolt Ltd. All rights reserved.
+            © 2026 Revolt LLC. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="#" className="text-slate-500 hover:text-white text-sm transition-colors">Privacy Policy</Link>

@@ -46,7 +46,7 @@ export function WhyChooseUs() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Why Businesses Choose Revolt Ltd</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Why Businesses Choose Revolt</h2>
           <p className="text-lg text-slate-300 leading-relaxed">
             We don't just implement software; we partner with you to transform how your business operates, sells, and serves customers.
           </p>
