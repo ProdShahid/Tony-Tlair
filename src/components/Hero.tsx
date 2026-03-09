@@ -32,7 +32,7 @@ export function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-              Revolt Ltd helps businesses implement, customize, integrate, and optimize Salesforce to improve customer relationships, automate operations, and scale with confidence.
+              Revolt helps businesses implement, customize, integrate, and optimize Salesforce to improve customer relationships, automate operations, and scale with confidence.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-10">

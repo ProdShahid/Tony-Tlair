@@ -38,10 +38,10 @@ export function DetailTemplate({ type, data }: DetailTemplateProps) {
     setIsSubmitting(true);
     setSubmitError('');
 
-    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+    const accessKey = 'b7ef8349-9a36-4b9e-801a-659232b79a8c';
 
     if (!accessKey) {
-      setSubmitError('Form submission is not configured. Please add VITE_WEB3FORMS_ACCESS_KEY to your environment variables.');
+      setSubmitError('Form submission is not configured.');
       setIsSubmitting(false);
       return;
     }
@@ -56,7 +56,7 @@ export function DetailTemplate({ type, data }: DetailTemplateProps) {
         body: JSON.stringify({
           access_key: accessKey,
           subject: `New Inquiry for ${data.title} from ${formState.name}`,
-          from_name: 'Revolt Ltd Website',
+          from_name: 'Revolt Website',
           ...formState,
         }),
       });
