@@ -22,11 +22,6 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl"
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-blue-700 font-medium text-sm mb-6">
-              <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
-              Premium Salesforce Partner
-            </div>
-            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 leading-[1.1] mb-6 tracking-tight">
               Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Expert Salesforce Solutions</span>
             </h1>
